@@ -7,11 +7,9 @@ import java.util.List;
 
 public class StudentRepository {
 
-    private static Connection connection = null;
-
-    /*
-        private Connection connection;
-
+    private static Connection connection=null;
+/*
+    //private  Connection connection;
         public StudentRepository() {
             try {
                 // Assuming you're using MySQL
@@ -67,7 +65,7 @@ public class StudentRepository {
     public boolean insertStudent(Student student) throws SQLException {
         this.initConnection();
 
-        String query = "INSERT INTO student VALUES (?, ?, ?, ?, ?)";
+        String query = "INSERT INTO student VALUES(?, ?, ?, ?, ?)";
         try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
 
             preparedStatement.setInt(1, student.getId());
