@@ -18,7 +18,8 @@ public class StudentService {
         return true;
     }
 
-    public List<Student> retrieveStudents() throws SQLException {
+    public List<Student> retrieveStudents() throws SQLException
+    {
         return studentRepository.retrieveStudents();
     }
 }
