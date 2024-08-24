@@ -4,6 +4,7 @@ import lombok.*;
 
 @Setter
 @Getter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Student {
@@ -12,6 +13,4 @@ public class Student {
     private String lastName;
     private String gender;
     private int age;
-
-
 }
