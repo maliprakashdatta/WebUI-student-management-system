@@ -1,15 +1,34 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Student Form </title>
 </head>
 <body>
 <h1>Student Management System</h1>
+<form action="/studentManagementSystem/StudentController" method="POST">
+    <label>Id : </label>
+    <input type = "textbox" id ="id" name="id"/>
+    <br/>
 
-<a href="http://localhost:8080/studentManagementSystem/CreateStudent.jsp">Create Student</a>
-<br/><br/>
-<a href="http://localhost:8080/studentManagementSystem/AddressForm.jsp">Address Student</a>
-<a href="http://localhost:8080/studentManagementSystem/DisplayStudent.jsp">Display all Student</a>
+    <label>First Name: </label>
+    <input type = "textbox" id ="firstname" name="firstname"/>
+    <br/>
+
+    <label>Last Name: </label>
+    <input type = "textbox" id ="lastname" name="lastname"/>
+    <br/>
+    <label>Gender: </label>
+    <input type = "radio" value="Male" id ="male" name="male">
+    <label for="male">Male</label>
+    </input>
+    <input type = "radio" value="Female" id ="female" name="female">
+    <label for="female">Female</label>
+    </input>
+    <br/>
+    <label>Age: </label>
+    <input type = "textbox" id ="age" name="age"/>
+    <input type = "submit" value="Save Data"/>
+</form>
 </body>
 </html>
