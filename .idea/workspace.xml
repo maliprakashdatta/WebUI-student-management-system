@@ -4,42 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c42036e-1d4e-4f44-85bb-64ff67f7a9a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/catalina.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/catalina.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/jaspic-providers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/jaspic-providers.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/server.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/tomcat-users.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.smarttomcat/servelet-student-management-system/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/exception/AddressNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/exception/StudentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/service/ConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swsa/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddressForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/CreateStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/DisplayStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mysql-connector-j-9.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index123.jsp" afterDir="false" />
+    <list default="true" id="2c42036e-1d4e-4f44-85bb-64ff67f7a9a6" name="Changes" comment="committed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddressForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CreateStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CreateStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/DisplayStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/DisplayStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index123.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,33 +44,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Run.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.servelet-student-management-system [clean].executor": "Run",
-    "Maven.servelet-student-management-system [compile].executor": "Run",
-    "Maven.servelet-student-management-system [package].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.Run.executor": "Run",
-    "Smart Tomcat.Unnamed.executor": "Run",
-    "Smart Tomcat.run.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/servelet-student-management-system/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.servelet-student-management-system [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.servelet-student-management-system [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.servelet-student-management-system [package].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.run.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/servelet-student-management-system/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Run" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -124,6 +97,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,19 +113,94 @@
       <option name="presentableId" value="Default" />
       <updated>1723549297970</updated>
     </task>
+    <task id="LOCAL-00001" summary="student test project committed">
+      <option name="closed" value="true" />
+      <created>1724213453240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724213453240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="student test project committed">
+      <option name="closed" value="true" />
+      <created>1724466969417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724466969417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="student test project committed">
+      <option name="closed" value="true" />
+      <created>1724466999054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724466999054</updated>
+    </task>
+    <task id="LOCAL-00004" summary="student test project committed">
+      <option name="closed" value="true" />
+      <created>1724467021376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724467021376</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pom">
+      <option name="closed" value="true" />
+      <created>1724470631746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724470631746</updated>
+    </task>
+    <task id="LOCAL-00006" summary="committed">
+      <option name="closed" value="true" />
+      <created>1724487377609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724487377609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="committed">
+      <option name="closed" value="true" />
+      <created>1724487386171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724487386171</updated>
+    </task>
+    <task id="LOCAL-00008" summary="committed">
+      <option name="closed" value="true" />
+      <created>1724487395129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724487395129</updated>
+    </task>
+    <task id="LOCAL-00009" summary="committed">
+      <option name="closed" value="true" />
+      <created>1724602866884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724602866884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="student test project committed" />
+    <MESSAGE value="pom" />
+    <MESSAGE value="committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="committed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/swsa/repository/AddressRepository.java</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/swsa/repository/StudentRepository.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/swsa/service/ConnectionService.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

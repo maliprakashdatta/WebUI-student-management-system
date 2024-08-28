@@ -11,15 +11,10 @@
 <body>
 <h1>Student Management System</h1>
 <form action="/studentManagementSystem/StudentController" method="POST">
-	<label>Id : </label>
-	<input type = "textbox" id ="id" name="id"/>
-	<br/>
-
 	<label>First Name: </label>
 	<input type = "textbox" id ="firstname" name="firstname"/>
 	<br/>
-
-	<label>Last Name: </label>
+	<label>Second Name: </label>
 	<input type = "textbox" id ="lastname" name="lastname"/>
 	<br/>
 	<label>Gender: </label>
@@ -32,7 +27,10 @@
 	<br/>
 	<label>Age: </label>
 	<input type = "textbox" id ="age" name="age"/>
-
+	<br/>
+	<label>Id : </label>
+	<input type = "textbox" id ="id" name="id"/>
+	<br/>
 	<input type = "submit" value="Save Data"/>
 </form>
 </body>
