@@ -6,10 +6,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Student Form</title>
+
 </head>
 <body>
-<h1>Student Management System</h1>
+<h1>Student Management System</h1
+
 <form action="/studentManagementSystem/StudentController" method="POST">
 	<label>First Name: </label>
 	<input type = "textbox" id ="firstname" name="firstname"/>

@@ -11,6 +11,7 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.List;
 
+   //@WebServlet("/addressRtrivalServlet")
    @WebServlet("/address")
     public class AddressController extends HttpServlet {
         private final AddressService addressService= new AddressService();
@@ -29,7 +30,7 @@ import java.util.List;
             request.setAttribute("AddressList", addresses);
 
             // Forward the request to the JSP page
-            request.getRequestDispatcher("/DisplayAddresses.jsp").forward(request, response);
+            request.getRequestDispatcher("/DisplayAddress.jsp").forward(request, response);
         }
 
         @Override
